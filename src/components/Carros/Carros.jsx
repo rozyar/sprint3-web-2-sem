@@ -1,10 +1,3 @@
-import 'react'
+import { Link } from "react-router-dom";
 import './Carros.css';
-export default function Carros(props) {
-  return (
 
-    <>
-       
-    </>
-  );
-}
