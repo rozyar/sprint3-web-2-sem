@@ -5,9 +5,17 @@ import Header from './components/Header/Header'
 
 function App() {
 
+  const location = useLocation()
+
+  const isHome = location.pathname === '/'
+
   return (
     <>
+      {!isHome && <Header />}
+
+      <Outlet />
       
+      {!isHome && <Footer /> }
     </>
   )
 }
