@@ -9,8 +9,21 @@ import VizualizarVeiculo from './routes/VizualizarVeiculo/VizualizarVeiculo.jsx'
 import VizualizarCategoria from './routes/VizualizarCategoria/VizualizarCategoria.jsx'
 
 
+const router = createBrowserRouter([
+  {
+    path: '/', element: <App />,
+    errorElement: <Error404 />,
+    children:[
+      {path: '/', element: <Home />},
+      {path: '/painelAcidente', element: <PainelAcidente />},
+      {path: '/painelAcidente/:categoria', element: <VizualizarCategoria />},
+      {path: '/painelAcidente/:categoria/:id', element: <VizualizarVeiculo />},
+    ]
+  }
+])
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
