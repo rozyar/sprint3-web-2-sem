@@ -12,7 +12,11 @@ export default function VizualizarCategoria() {
     
     return (
         <>
-            
+            <div className='vizualizarCategoria-container'>
+                <div className='visualizarCategoria-titulo'>
+                    <h1>Veículos na Categoria</h1>
+                </div>
+                
         </>
     )
 }
