@@ -14,7 +14,9 @@ export default function PainelAcidente() {
                     <h1>Escolha o tipo do Veículo</h1>
                 </div>
 
-                
+                <div className="painelAcidente-categorias">
+
+                {ListCarros.map((carro) => {
         </>
     )
 }
