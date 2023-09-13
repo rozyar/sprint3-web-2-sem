@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;500&display=swap');
+.vizualizarCategoria-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.visualizarCategoria-titulo h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 140px;
+}
+
+
+.visualizarCategoria-categoria{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.visualizarCategoria-retorno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 900px) {
+    .visualizarCategoria-titulo h1{
+        font-size: 28px;
+    }
+
+    .visualizarCategoria-retorno img{
+        height: 76px;
+        width: 76px;
+    }
+}
+
+@media (max-width: 750px) {
+    .visualizarCategoria-titulo h1{
+        font-size: 26px;
+    }
+
+    .visualizarCategoria-retorno img{
+        height: 62px;
+        width: 62px;
+    }
+
+}
+@media (max-width: 620px) {
+    .visualizarCategoria-titulo h1{
+        font-size: 20px;
+    }
+}
