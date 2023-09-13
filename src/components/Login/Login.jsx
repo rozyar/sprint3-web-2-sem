@@ -2,7 +2,10 @@ import 'react'
 import './Login.css'
 
 export default function Login() {
-    
+    const [cpf, setCpf] = useState('')
+    const [password, setPassword] = useState('')
+
+
     return (
         <>
             <div className='login-container'>
@@ -29,6 +32,7 @@ export default function Login() {
                 </div>
 
             </div>
+            <BackgroundLogin />
         </>
     )
 }
