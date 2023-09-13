@@ -6,6 +6,9 @@ import CarrosDetalhados from '../../components/Carros/CarrosDetalhados/CarrosDet
 import './VizualizarCategoria.css'
 
 export default function VizualizarCategoria() {
+    const {categoria} = useParams()
+
+    const carros = list.find((p) => p.categoria === categoria)
     
     return (
         <>
