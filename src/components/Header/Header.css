@@ -86,3 +86,15 @@
     }
 
 }
+
+@media (max-width: 425px) {
+
+    .header-content {
+        width: 92%;
+    }
+
+    .header-content h1 {
+        font-size: 16px;
+        font-weight:600;
+    }
+}
