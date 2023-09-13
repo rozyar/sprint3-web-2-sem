@@ -7,7 +7,7 @@ import BackgroundLogin from '../../components/Login/BackgroundLogin/BackgroundLo
 export default function Home() {
     return (
         <>
-                
+                <Login />
         </>
     )
 }
