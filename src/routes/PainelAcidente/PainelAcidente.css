@@ -32,3 +32,11 @@ body{
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
+.painelAcidente-retorno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
