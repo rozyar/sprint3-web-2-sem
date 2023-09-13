@@ -51,3 +51,9 @@
         height: 40px;
     }
 }
+
+@media (max-width: 630px) {
+    .header-content {
+        width: 80%;
+    }
+}
