@@ -40,3 +40,20 @@ body{
     width: 100%;
     margin-bottom: 100px;
 }
+
+@media (max-width: 900px) {
+
+    .painelAcidente-categorias{
+        margin-top: 20px;
+    }
+
+    .painelAcidente-container h1{
+        font-size: 24px;
+        margin-top: 160px;
+    }
+
+    .painelAcidente-retorno img{
+        height: 76px;
+        width: 76px;
+    }
+}
