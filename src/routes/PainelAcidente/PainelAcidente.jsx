@@ -17,6 +17,19 @@ export default function PainelAcidente() {
                 <div className="painelAcidente-categorias">
 
                 {ListCarros.map((carro) => {
+                    return (
+                        <Carros
+                        key={carro.categoria}
+                        img={carro.img}
+                        categoria={carro.categoria}
+                        />
+                        )
+                    })}
+                    </div>
+                    <div className="painelAcidente-retorno">
+                        <Link to={`/`}><img src={arrow} alt={arrow} height={92} width={92}/></Link>
+                    </div>
+            </div>
         </>
     )
 }
