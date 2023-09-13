@@ -16,7 +16,17 @@ export default function VizualizarCategoria() {
                 <div className='visualizarCategoria-titulo'>
                     <h1>Veículos na Categoria</h1>
                 </div>
-                
+                <div className='visualizarCategoria-categoria'>
+                    {carros.veiculos.map((cars) => {
+                        return(
+                            <CarrosDetalhados key={cars.id} categoria={categoria} {...cars}/>
+                        )
+                    })}
+                </div>
+                <div className="visualizarCategoria-retorno">
+                        <Link to={`/painelAcidente`}><img src={arrow} alt={arrow} height={92} width={92}/></Link>
+                </div>
+            </div>
         </>
     )
 }
