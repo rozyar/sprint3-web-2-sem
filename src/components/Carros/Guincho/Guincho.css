@@ -1,0 +1,96 @@
+.guincho-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    width: 570px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.guincho-card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+
+}
+.guincho-card-image img{
+    margin-top: 20px;
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.guincho-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+
+}
+.guincho-card-content h3{
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    color:black;
+
+}
+
+.guincho-submit {
+    font-family: 'Source Code Pro', monospace;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00AEFF;
+    border: 2px solid #00AEFF;
+    margin-top: 60px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .guincho-card {
+       width: 470px;
+       height: 200px;
+    }
+
+    .guincho-card h3{
+        font-size: 20px;
+    }
+
+
+    .guincho-submit {
+        margin-top: 40px;
+        width: 120px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 750px) {
+    .guincho-card {
+       width: 400px;
+       height: 180px;
+    }
+
+    .guincho-card h3{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 500px) {
+    .guincho-card {
+       width: 320px;
+       height: 180px;
+    }
+
+    .guincho-card h3{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;500&display=swap');
+
+.carrosDetalhados-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 870px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+
+}
+
+.carrosDetalhados-titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.carrosDetalhados-titulo h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.carrosDetalhados-content{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.carrosDetalhados-content-image{
+    width: 200px;
+    height: 130px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.carrosDetalhados-content-image img{
+    border-radius: 10px;
+}
+
+.carrosDetalhados-content-info{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.carrosDetalhados-content-info h3{
+    display: flex;
+    font-weight: 500;
+    flex-direction: row;
+    width: 280px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1em;
+}
+
+.carrosDetalhados-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+}
+
+
+.carrosDetalhados-submit {
+    font-family: 'Source Code Pro', monospace;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00AEFF;
+    border: 2px solid #00AEFF;
+    cursor: pointer;
+    margin-right:15px ;
+    color: #FFFFFF;
+}
+
+.carrosDetalhados-submit-editar {
+    font-family: 'Source Code Pro', monospace;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #1400FF;
+    border: 2px solid #1400FF;
+    cursor: pointer;
+    margin-right:15px ;
+    color: #FFFFFF;
+}
+
+@media (max-width:900px){
+    .carrosDetalhados-container{
+        width: 730px;
+        height: 240px;
+    }
+
+    .carrosDetalhados-content-image{
+        width: 180px;
+        height: 140px;
+        padding-left: 20px;;
+        border-radius: 10px;
+    }
+    
+    .carrosDetalhados-content-image img{
+        border-radius: 10px;
+        width: 180px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .carrosDetalhados-content-info{
+        width: 240px;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .carrosDetalhados-content-info h3{
+        display: flex;
+        font-size: 1em;
+        width: 140px;
+    }
+
+    .carrosDetalhados-submit {
+        margin-right:25px ;
+       
+    }
+}
+
+
+@media (max-width:755px){
+    .carrosDetalhados-container{
+        width: 600px;
+        height: 200px;
+    }
+
+    .carrosDetalhados-titulo h1{
+        font-size: 1.1em;
+    }
+    
+
+    .carrosDetalhados-content-image{
+        width: 180px;
+        height: 140px;
+        padding-left: 20px;;
+        border-radius: 10px;
+    }
+    
+    .carrosDetalhados-content-image img{
+        border-radius: 10px;
+        width: 140px;
+        height: 100px;
+    }
+
+    .carrosDetalhados-content-info{
+        width: 200px;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .carrosDetalhados-content-info h3{
+        display: flex;
+        font-size: 0.9em;
+    }
+
+
+    .carrosDetalhados-submit {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        margin-right:25px ;
+     
+    }
+    
+    .carrosDetalhados-submit-editar {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        margin-right:25px ;
+    }
+
+}
+
+@media (max-width:620px){
+    .carrosDetalhados-container{
+        width: 500px;
+        height: 200px;
+    }
+    
+    .carrosDetalhados-titulo h1{
+        font-size: 0.95em;
+    }
+
+    .carrosDetalhados-content-image{
+        width: 140px;
+        height: 100px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    
+    .carrosDetalhados-content-image img{
+        border-radius: 10px;
+        width: 140px;
+        height: 100px;
+    }
+
+    .carrosDetalhados-content-info{
+        width: 140px;
+        height: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .carrosDetalhados-content-info h3{
+        display: flex;
+        font-size: 0.7em;
+        width: 140px;
+    }
+
+
+    .carrosDetalhados-submit {
+        font-size: 12px;
+        width: 80px;
+        height: 30px;
+        margin-right:25px;
+     
+    }
+    
+    .carrosDetalhados-submit-editar {
+        font-size: 12px;
+        width: 80px;
+        height: 30px;
+        margin-right:25px ;
+    }
+
+}
+
+
+
+@media (max-width:500px){
+    .carrosDetalhados-container{
+        width: 320px;
+        height: 180px;
+    }
+
+    .carrosDetalhados-titulo h1{
+        font-size: 0.8em;
+    }
+    
+
+    .carrosDetalhados-content-image{
+        width: 85px;
+        height: 75px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+    
+    .carrosDetalhados-content-image img{
+        border-radius: 10px;
+        width: 85px;
+        height: 75px;
+        margin-top: 13px;
+    }
+
+    .carrosDetalhados-content-info{
+        width: 120px;
+        height: 100%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    
+    .carrosDetalhados-content-info h3{
+        display: flex;
+        width: 70px;
+        font-size: 0.59em;
+        padding-left: 8px;
+    }
+
+
+    .carrosDetalhados-submit {
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+        margin-right:25px;
+     
+    }
+    
+    .carrosDetalhados-submit-editar {
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+        margin-right:25px ;
+    }
+
+}

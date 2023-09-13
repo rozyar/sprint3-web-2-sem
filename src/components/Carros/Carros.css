@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;500&display=swap');
+
+.carros-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.carros-card-image img{
+    margin-top: 20px;
+    width: 238px;
+    height: 169px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carros-card h3{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+}
+
+.carros-submit {
+    font-family: 'Source Code Pro', monospace;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00AEFF;
+    border: 2px solid #00AEFF;
+    margin-top: 60px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .carros-card {
+       width: 230px;
+       height: 300px;
+    }
+
+    .carros-card h3{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .carros-card-image img{
+        width: 195px;
+        height: 150px;
+    }
+
+    .carros-submit {
+        margin-top: 20px;
+        height: 35px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carros-card {
+       width: 190px;
+       height: 270px;
+    }
+
+    .carros-card h3{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .carros-card-image img{
+        width: 160px;
+        height: 135px;
+    }
+
+    .carros-submit {
+        margin-top: 20px;
+        height: 35px;
+        width: 120px;
+    }
+}
