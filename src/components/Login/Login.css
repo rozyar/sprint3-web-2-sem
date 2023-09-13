@@ -13,3 +13,94 @@
     align-items: center;
     background-color: #1C1C24;
 }
+
+.login-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 850px;
+    max-width: 560px;
+    background-color: #1C1C24;
+}
+
+.login-logo{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login-form-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.login-form-title h1{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.login-form-title p{
+    font-size: 12px;
+    color: #808080;
+}
+
+.login-form-title a{
+    color: #1CACC1;
+    text-decoration: underline;
+}
+
+.login-form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-user-input{
+    width: 340px;
+    height: 40px;
+    border: 2px solid #1CACC1;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.login-user-input-submit{
+    font-family: 'Source Code Pro', monospace;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00AEFF;
+    border: 2px solid #00AEFF;
+    margin: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.login-form-terms{
+    display: flex;
+    padding: 30px;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 120px;
+    font-family: 'Source Code Pro', monospace;
+    color: #808080;
+}
